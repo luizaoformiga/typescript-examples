@@ -1,12 +1,12 @@
-interface Rats {
-    name: string;
-    age: number;
+export default interface Rats {
+    name?: string; // ? Significa ser opcional 
+    age?: number | string; // pode ser number ou string
     walk(): void; 
 }
 
 class Jerry implements Rats {
     name: string;
-    age: number;
+    age: number | string;
     
     constructor(name: string, age: number) {
        this.name = name;

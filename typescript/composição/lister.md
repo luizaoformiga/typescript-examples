@@ -1,0 +1,1 @@
+- Apenas uma aplicação de exemplo com typescript.
